@@ -1,0 +1,148 @@
+@font-face {
+  font-display: swap; 
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  src: url("./fonts/librebaskervilleregular.woff2") format("woff2"),
+  url("./fonts/librebaskervilleregular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  src: url("./fonts/librebaskervillebold.woff2") format("woff2"),
+  url("./fonts/librebaskervillebold.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", "Times New Roman", serif;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.list-unstyled {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  padding-top: 40px;
+}
+
+.site-header-wrapper {
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-logo-link {
+  text-decoration-line: none;
+}
+
+.header-link {
+  color: #7d7d7d;
+  text-decoration-line: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.571px;
+}
+
+.hero {
+  padding-top: 40px;
+  padding-bottom: 311px;
+}
+
+.hero-wrapper {
+  display: grid;
+  grid-template: 1520px / repeat(4 , 310px);
+  column-gap: 40px;
+}
+
+.hero-images-wrapper {
+  display: grid;
+  grid-template: 200px 400px 600px 200px / 310px;
+  row-gap: 40px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-title-wrapper {
+  position: absolute;
+  width: 242px;
+  left: 32px;
+  bottom: 33px;
+}
+
+.additional-box {
+  width: 243px;
+}
+
+.additional-wrapper {
+  width: 184px;
+}
+
+.image-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.image-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.7528;
+}
+
+.hero-pictures-wrapper {
+  display: grid;
+  grid-template: 400px 200px repeat(2 , 400px) / 310px;
+  row-gap: 40px;
+}
+
+.hero-gallery-wrapper {
+  display: grid;
+  grid-template: 200px 600px 400px 200px / 310px;
+  row-gap: 40px;
+}
+
+.hero-illustration-wrapper {
+  display: grid;
+  grid-template: 400px repeat(2 , 200px) 600px / 310px;
+  row-gap: 40px;
+}
